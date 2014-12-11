@@ -1,6 +1,6 @@
-$("#main").append("Laurel");
-var awesomeThoughts = "I am Laurel and I am AWESOME"
-var funThoughts = awesomeThoughts.replace("AWESOME","FUN");
-console.log(awesomeThoughts);
-console.log(funThoughts);
-$("#main").append(funThoughts);
+// $("#main").append("Laurel");
+
+var formattedName = HTMLheaderName.replace("%data%","Laurel Hechanova");
+var formattedRole = HTMLheaderRole.replace("%data%","UX/UI Designer");
+$("#header").prepend(formattedName);
+$("#header").prepend(formattedRole);
